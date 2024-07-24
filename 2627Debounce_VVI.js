@@ -4,7 +4,6 @@
  * @return {Function}
  */
 var debounce = function(fn, t) {
-    console.log(fn, t);
     let timer;
     return function(...args) {
         if (timer) {
