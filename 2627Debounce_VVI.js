@@ -16,7 +16,12 @@ var debounce = function(fn, t) {
     }
 };
 
-debounce();
+const log = debounce(console.log, 100);
+log('Hello'); // cancelled
+log('Hello'); // cancelled
+log('Hello'); // Logged at t=100ms
+
+debounce((ar)=>console.log(ar),3);
 
 /**
  * const log = debounce(console.log, 100);
