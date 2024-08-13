@@ -11,9 +11,13 @@
 # a.pop(1)
 # print(a)
 
-class Solution(object):
-    def removeElement(self, nums, val):
-        for i in range(len(nums)):
-            if nums[i] == val:
-                nums.pop(i)
-        return nums
+# class Solution(object):
+#     def removeElement(self, nums, val):
+#         for i in range(len(nums)):
+#             if nums[i] == val:
+#                 nums.pop(i)
+#         return nums
+
+arr = [1,2,3,4,5,6,7,8,9]
+mid = 10 // 2  # // is floor division return int value and / is normal division return float
+print(mid)
