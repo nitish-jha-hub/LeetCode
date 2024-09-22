@@ -18,6 +18,6 @@
 #                 nums.pop(i)
 #         return nums
 
-arr = [1,2,3,4,5,6,7,8,9]
-mid = 10 // 2  # // is floor division return int value and / is normal division return float
-print(mid)
+# arr = [1,2,3,4,5,6,7,8,9]
+# mid = 12 // 2  # // is floor division return int value and / is normal division return float
+# print(mid)

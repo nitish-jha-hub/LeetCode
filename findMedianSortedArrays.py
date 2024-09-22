@@ -1,5 +1,5 @@
 # run on python3 on leetcode but not on python: Maybe leetcode problem 
-nums1 = [1,2]
+nums1 = [1,2,8]
 nums2 = [3,4]
 
 
