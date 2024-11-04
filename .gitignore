@@ -7,3 +7,6 @@
 __pycache__/
 .venv/
 .vscode/
+.idea/LeetCode.iml
+.idea/misc.xml
+.vscode/settings.json
