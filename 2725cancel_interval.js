@@ -49,5 +49,5 @@
 var cancellable = function(fn, args, t) {
     fn(...args)
     let interval1 = setInterval(fn,t,...args)
-    return ()=>clearInterval(interval1)  
+    return ()=>clearInterval(interval1)
 };
